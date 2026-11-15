@@ -1,0 +1,11 @@
+{
+  "name": "windsweeps-ui",
+  "owner": { "name": "WindSweeps" },
+  "plugins": [
+    {
+      "name": "web-ui-director",
+      "description": "Task-first UI design, typography, accessibility, and interaction review.",
+      "source": "./plugins/web-ui-director"
+    }
+  ]
+}
