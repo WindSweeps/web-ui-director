@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "web-ui-director",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Task-first UI design, typography, accessibility, and interaction review.",
   "author": { "name": "WindSweeps" },
   "repository": "https://github.com/WindSweeps/web-ui-director",

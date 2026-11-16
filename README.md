@@ -4,6 +4,8 @@ An Agent Skill for task-first interfaces, content-driven grids, consistent typog
 
 ## Install
 
+**DeepSeek Harness.** In **Plugins**, install from the Git repository `https://github.com/WindSweeps/web-ui-director`. The bundle registers the `web-ui-director` skill. In a new conversation, ask DeepSeek to use it for your UI task.
+
 **ChatGPT desktop.** In the Git repository plugin installer, enter `https://github.com/WindSweeps/web-ui-director` and install **Web UI Director**. In a new chat, ask ChatGPT or Codex to use Web UI Director on your UI task.
 
 **Codex CLI.** Add the marketplace and install the plugin.

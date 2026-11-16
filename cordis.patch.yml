@@ -1,0 +1,14 @@
+- insert:
+    - id: web-ui-director-skill-filesystem
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: web-ui-director
+        includeDefaultRoots: false
+        customSkillDirs:
+          - !!js >-
+            process.getBuiltinModule('node:path').join(
+              process.getBuiltinModule('node:path').dirname(
+                process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-web-ui-director/package.json')
+              ),
+              'skills'
+            )

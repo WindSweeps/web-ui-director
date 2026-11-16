@@ -1,0 +1,11 @@
+{
+  "name": "dsh-web-ui-director",
+  "version": "1.0.2",
+  "description": "Task-first UI design, typography, accessibility, and interaction review.",
+  "repository": "https://github.com/WindSweeps/web-ui-director",
+  "files": ["cordis.patch.yml", "skills/"],
+  "exports": { "./package.json": "./package.json" },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
