@@ -4,7 +4,14 @@ An Agent Skill for task-first interfaces, content-driven grids, consistent typog
 
 ## Install
 
-**Codex desktop.** Open **Plugins**, choose **Add plugin marketplace**, enter `WindSweeps/web-ui-director`, and install **Web UI Director**. In a new chat, ask Codex to use Web UI Director on your UI task.
+**ChatGPT desktop.** In the Git repository plugin installer, enter `https://github.com/WindSweeps/web-ui-director` and install **Web UI Director**. In a new chat, ask ChatGPT or Codex to use Web UI Director on your UI task.
+
+**Codex CLI.** Add the marketplace and install the plugin.
+
+```sh
+codex plugin marketplace add WindSweeps/web-ui-director
+codex plugin add web-ui-director@windsweeps-ui
+```
 
 **Claude Code.** Run these in the terminal.
 
@@ -15,7 +22,7 @@ claude plugin install web-ui-director@windsweeps-ui
 
 In a Claude Code session, invoke `/web-ui-director:web-ui-director` with your task.
 
-**Other Agent Skills clients.** Copy the entire [skill directory](plugins/web-ui-director/skills/web-ui-director/) into the client's skills directory. Keep `SKILL.md` and `references/` together.
+**Other Agent Skills clients.** Copy the entire [skill directory](skills/web-ui-director/) into the client's skills directory. Keep `SKILL.md` and `references/` together.
 
 ## Example request
 
